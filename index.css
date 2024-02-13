@@ -1,0 +1,108 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/* <!-- Inizio Header--> */
+@font-face{
+  font-family:"Roboto-Regular";
+  src: url("Roboto-Regular.woff") format('Woff')
+}
+
+#scrittalogo{
+  color: rgb(0, 221, 0);
+  text-align: center;
+  font-family: "Roboto-Regular";
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.transparentcontainer{
+  width: 65%;
+  margin:50px auto;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 130px;
+  box-sizing: border-box;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 120px;
+}
+/* Inizio menù con bottoni */
+
+.bordernav{
+  border: 1px solid black ;
+  height: 60px;
+  background-color: rgb(0, 221, 0);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bordernav button {
+  height: 25px;
+  margin: 0 5px;
+}
+/* Inizio Main Indirizzi monopattini*/
+section{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.checkboxlabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+label.checkboxlabel span{
+  display: block;
+}
+
+label.checkboxlabel > span:first-child {
+  font-size: 32px;
+  font-family: "Roboto-Regular";
+
+}
+span:last-child:before {
+  content: "\21A6";
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+label.checkboxlabel > span:last-child {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+/* I 3 bordi colorati */
+#orangeborder{
+  border: 1px solid transparent;
+  background-color: rgb(245, 180, 83);
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+#greenborder{
+  border: 1px solid transparent;
+  background-color: rgb(30, 195, 30);
+  height: 40px;
+  width: 700px;
+  border-radius: 10px;
+}
+#redborder{
+  border: 1px solid transparent;
+  background-color: rgb(190, 65, 65);
+  height: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
