@@ -83,7 +83,7 @@ label.checkboxlabel > span:last-child {
 input[type="checkbox"] {
   margin-right: 10px;
 }
-/* I 3 bordi colorati */
+/* I 3 border colorati */
 section > div{
   border: 1px solid transparent;
   border-radius: 10px;
